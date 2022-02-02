@@ -1,0 +1,23 @@
+{
+  "name": "nightwatch-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^97.0.4",
+    "geckodriver": "^3.0.1",
+    "nightwatch": "^2.0.4",
+    "selenium-server": "^3.141.59"
+  },
+  "dependencies": {
+    "node.js": "0.0.1-security",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.1.1",
+    "webdriver": "^7.16.14"
+  }
+}

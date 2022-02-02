@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="test.file"
+    errors="1" failures="0" hostname="" id="" package="test.file" skipped="1"
+    tests="0" time="5000" timestamp="">
+  
+
+  
+    <system-err>
+      
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                                                      │
+│    Error: Unable to create the ChromeDriver process:                                                                                 │
+│    The specified executable path does not exist: ./bin/mac/chromedriver-v2.37; verify if webdriver is configured correctly; using:   │
+│     {                                                                                                                                │
+│        start_process: true,                                                                                                          │
+│        server_path: &#39;./bin/mac/chromedriver-v2.37&#39;,                                                                                  │
+│        port: 4444,                                                                                                                   │
+│        host: &#39;localhost&#39;,                                                                                                            │
+│        ssl: false,                                                                                                                   │
+│        default_path_prefix: &#39;&#39;,                                                                                                      │
+│        proxy: undefined,                                                                                                             │
+│        cli_args: {}                                                                                                                  │
+│     }                                                                                                                                │
+│                                                                                                                                      │
+│                                                                                                                                      │
+│                                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+    </system-err>
+  
+
+    
+    <error message="Unable to create the ChromeDriver process:"><![CDATA[
+      Error: Unable to create the ChromeDriver process:
+    at new DriverService.Builder (/Users/yayediorthiam/Desktop/nightwatch-tutorial/node_modules/nightwatch/node_modules/selenium-webdriver/remote/index.js:318:13)
+    at new ServiceBuilder (/Users/yayediorthiam/Desktop/nightwatch-tutorial/node_modules/nightwatch/node_modules/selenium-webdriver/chromium.js:190:5)
+    at new ServiceBuilder (/Users/yayediorthiam/Desktop/nightwatch-tutorial/node_modules/nightwatch/node_modules/selenium-webdriver/chrome.js:168:5)
+    at ChromeServiceBuilder.createService (/Users/yayediorthiam/Desktop/nightwatch-tutorial/node_modules/nightwatch/lib/transport/selenium-webdriver/service-builders/chrome.js:35:20)
+    at ChromeServiceBuilder.init (/Users/yayediorthiam/Desktop/nightwatch-tutorial/node_modules/nightwatch/lib/transport/selenium-webdriver/service-builders/base-service.js:262:18)
+    at ChromeDriver.createDriverService (/Users/yayediorthiam/Desktop/nightwatch-tutorial/node_modules/nightwatch/lib/transport/selenium-webdriver/index.js:172:57)
+    at ChromeDriver.createSession (/Users/yayediorthiam/Desktop/nightwatch-tutorial/node_modules/nightwatch/lib/transport/selenium-webdriver/index.js:213:18)
+    at NightwatchClient.createSession (/Users/yayediorthiam/Desktop/nightwatch-tutorial/node_modules/nightwatch/lib/core/client.js:633:27)
+    at TestSuite.createSession (/Users/yayediorthiam/Desktop/nightwatch-tutorial/node_modules/nightwatch/lib/testsuite/index.js:406:24)
+    at TestSuite.startTestSuite (/Users/yayediorthiam/Desktop/nightwatch-tutorial/node_modules/nightwatch/lib/testsuite/index.js:420:17)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Filling out form" classname="test.file">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

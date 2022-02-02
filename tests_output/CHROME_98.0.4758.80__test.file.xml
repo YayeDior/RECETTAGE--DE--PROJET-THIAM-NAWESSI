@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test.file"
+    errors="3" failures="0" hostname="" id="" package="test.file" skipped="0"
+    tests="1" time="19.93" timestamp="">
+  
+    <testcase name="login form" classname="test.file" time="19.93" assertions="1">
+
+    
+    <error message="An error occurred while running .click() command on &lt;button[type=&#34;submit&#34;]&gt;: Timed out while waiting for element &#34;button[type=&#34;submit&#34;]&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Object.login form (/Users/yayediorthiam/Desktop/nightwatch-tutorial/tests/test.file.js:15:8)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError: An error occurred while running .setValue() command on &lt;input[name=&#34;email&#34;]&gt;: Timed out while waiting for element &#34;input[name=&#34;email&#34;]&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+       at Object.login form (/Users/yayediorthiam/Desktop/nightwatch-tutorial/tests/test.file.js:11:8)
+ NoSuchElementError: An error occurred while running .setValue() command on &lt;input[name=&#34;password&#34;]&gt;: Timed out while waiting for element &#34;input[name=&#34;password&#34;]&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+       at Object.login form (/Users/yayediorthiam/Desktop/nightwatch-tutorial/tests/test.file.js:13:8)
+ NoSuchElementError: An error occurred while running .click() command on &lt;button[type=&#34;submit&#34;]&gt;: Timed out while waiting for element &#34;button[type=&#34;submit&#34;]&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+       at Object.login form (/Users/yayediorthiam/Desktop/nightwatch-tutorial/tests/test.file.js:15:8)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
